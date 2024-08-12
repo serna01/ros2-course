@@ -1,0 +1,21 @@
+[0.013s] Invoking command in '/home/asm/leo_ws/build/leo': AMENT_PREFIX_PATH=/home/asm/leo_ws/install/leo_teleop:/home/asm/leo_ws/install/leo_msgs:/home/asm/leo_ws/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asm/leo_ws/install/leo_teleop:/home/asm/leo_ws/install/leo_msgs:/home/asm/leo_ws/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/asm/leo_ws/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asm/leo_ws/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asm/leo_ws/build/leo -- -j12 -l12
+[0.052s] Invoked command in '/home/asm/leo_ws/build/leo' returned '0': AMENT_PREFIX_PATH=/home/asm/leo_ws/install/leo_teleop:/home/asm/leo_ws/install/leo_msgs:/home/asm/leo_ws/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asm/leo_ws/install/leo_teleop:/home/asm/leo_ws/install/leo_msgs:/home/asm/leo_ws/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/asm/leo_ws/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asm/leo_ws/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asm/leo_ws/build/leo -- -j12 -l12
+[0.074s] Invoking command in '/home/asm/leo_ws/build/leo': AMENT_PREFIX_PATH=/home/asm/leo_ws/install/leo_teleop:/home/asm/leo_ws/install/leo_msgs:/home/asm/leo_ws/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asm/leo_ws/install/leo_teleop:/home/asm/leo_ws/install/leo_msgs:/home/asm/leo_ws/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/asm/leo_ws/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asm/leo_ws/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asm/leo_ws/build/leo
+[0.081s] -- Install configuration: ""
+[0.082s] -- Execute custom install script
+[0.082s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/ament_index/resource_index/package_run_dependencies/leo
+[0.083s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/ament_index/resource_index/parent_prefix_path/leo
+[0.083s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/leo/environment/ament_prefix_path.sh
+[0.083s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/leo/environment/ament_prefix_path.dsv
+[0.083s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/leo/environment/path.sh
+[0.083s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/leo/environment/path.dsv
+[0.084s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/leo/local_setup.bash
+[0.084s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/leo/local_setup.sh
+[0.084s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/leo/local_setup.zsh
+[0.084s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/leo/local_setup.dsv
+[0.085s] -- Symlinking: /home/asm/leo_ws/install/leo/share/leo/package.dsv
+[0.093s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/ament_index/resource_index/packages/leo
+[0.093s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/leo/cmake/leoConfig.cmake
+[0.093s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/leo/cmake/leoConfig-version.cmake
+[0.094s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo/share/leo/package.xml
+[0.096s] Invoked command in '/home/asm/leo_ws/build/leo' returned '0': AMENT_PREFIX_PATH=/home/asm/leo_ws/install/leo_teleop:/home/asm/leo_ws/install/leo_msgs:/home/asm/leo_ws/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asm/leo_ws/install/leo_teleop:/home/asm/leo_ws/install/leo_msgs:/home/asm/leo_ws/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/asm/leo_ws/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asm/leo_ws/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asm/leo_ws/build/leo

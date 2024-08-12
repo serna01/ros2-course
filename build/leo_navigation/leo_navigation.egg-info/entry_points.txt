@@ -1,0 +1,4 @@
+[console_scripts]
+object_detection_node = leo_navigation.object_detection_node:main
+static_tf_publisher = leo_navigation.static_tf_publisher:main
+

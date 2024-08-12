@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing odom_package.egg-info/PKG-INFO
+writing dependency_links to odom_package.egg-info/dependency_links.txt
+writing entry points to odom_package.egg-info/entry_points.txt
+writing requirements to odom_package.egg-info/requires.txt
+writing top-level names to odom_package.egg-info/top_level.txt
+reading manifest file 'odom_package.egg-info/SOURCES.txt'
+writing manifest file 'odom_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages/odom-package.egg-link (link to .)
+Installing odom_node script to /home/asm/leo_ws/install/odom_package/lib/odom_package
+
+Installed /home/asm/leo_ws/build/odom_package
+running install_data

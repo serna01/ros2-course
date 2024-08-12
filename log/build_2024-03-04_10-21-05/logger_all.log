@@ -1,0 +1,246 @@
+[2.421s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'odom_package']
+[2.421s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['odom_package'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3d252d8220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3d25250580>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3d25250580>>)
+[2.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.557s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/asm/leo_ws'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extension 'ignore'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extension 'ignore_ament_install'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extensions ['colcon_pkg']
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extension 'colcon_pkg'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extensions ['colcon_meta']
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extension 'colcon_meta'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extensions ['ros']
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extension 'ros'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extensions ['cmake', 'python']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extension 'cmake'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extension 'python'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extensions ['python_setup_py']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2) by extension 'python_setup_py'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo) by extensions ['ignore', 'ignore_ament_install']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo) by extension 'ignore'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo) by extension 'ignore_ament_install'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo) by extensions ['colcon_pkg']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo) by extension 'colcon_pkg'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo) by extensions ['colcon_meta']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo) by extension 'colcon_meta'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo) by extensions ['ros']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo) by extension 'ros'
+[2.588s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_common-ros2/leo' with type 'ros.ament_cmake' and name 'leo'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_description) by extensions ['ignore', 'ignore_ament_install']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_description) by extension 'ignore'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_description) by extension 'ignore_ament_install'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_description) by extensions ['colcon_pkg']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_description) by extension 'colcon_pkg'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_description) by extensions ['colcon_meta']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_description) by extension 'colcon_meta'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_description) by extensions ['ros']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_description) by extension 'ros'
+[2.591s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_common-ros2/leo_description' with type 'ros.ament_cmake' and name 'leo_description'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_msgs) by extension 'ignore'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_msgs) by extension 'ignore_ament_install'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_msgs) by extensions ['colcon_pkg']
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_msgs) by extension 'colcon_pkg'
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_msgs) by extensions ['colcon_meta']
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_msgs) by extension 'colcon_meta'
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_msgs) by extensions ['ros']
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_msgs) by extension 'ros'
+[2.594s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_common-ros2/leo_msgs' with type 'ros.ament_cmake' and name 'leo_msgs'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_teleop) by extensions ['ignore', 'ignore_ament_install']
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_teleop) by extension 'ignore'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_teleop) by extension 'ignore_ament_install'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_teleop) by extensions ['colcon_pkg']
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_teleop) by extension 'colcon_pkg'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_teleop) by extensions ['colcon_meta']
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_teleop) by extension 'colcon_meta'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_teleop) by extensions ['ros']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_common-ros2/leo_teleop) by extension 'ros'
+[2.597s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_common-ros2/leo_teleop' with type 'ros.ament_cmake' and name 'leo_teleop'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extension 'ignore'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extension 'ignore_ament_install'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extensions ['colcon_pkg']
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extension 'colcon_pkg'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extensions ['colcon_meta']
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extension 'colcon_meta'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extensions ['ros']
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extension 'ros'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extensions ['cmake', 'python']
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extension 'cmake'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extension 'python'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extensions ['python_setup_py']
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2) by extension 'python_setup_py'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_bringup) by extension 'ignore'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_bringup) by extension 'ignore_ament_install'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_bringup) by extensions ['colcon_pkg']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_bringup) by extension 'colcon_pkg'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_bringup) by extensions ['colcon_meta']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_bringup) by extension 'colcon_meta'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_bringup) by extensions ['ros']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_bringup) by extension 'ros'
+[2.602s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_simulator-ros2/leo_gz_bringup' with type 'ros.ament_cmake' and name 'leo_gz_bringup'
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_plugins) by extension 'ignore'
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_plugins) by extension 'ignore_ament_install'
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_plugins) by extensions ['colcon_pkg']
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_plugins) by extension 'colcon_pkg'
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_plugins) by extensions ['colcon_meta']
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_plugins) by extension 'colcon_meta'
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_plugins) by extensions ['ros']
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_plugins) by extension 'ros'
+[2.636s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_simulator-ros2/leo_gz_plugins' with type 'ros.ament_cmake' and name 'leo_gz_plugins'
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_worlds) by extensions ['ignore', 'ignore_ament_install']
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_worlds) by extension 'ignore'
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_worlds) by extension 'ignore_ament_install'
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_worlds) by extensions ['colcon_pkg']
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_worlds) by extension 'colcon_pkg'
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_worlds) by extensions ['colcon_meta']
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_worlds) by extension 'colcon_meta'
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_worlds) by extensions ['ros']
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_gz_worlds) by extension 'ros'
+[2.639s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_simulator-ros2/leo_gz_worlds' with type 'ros.ament_cmake' and name 'leo_gz_worlds'
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_simulator) by extensions ['ignore', 'ignore_ament_install']
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_simulator) by extension 'ignore'
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_simulator) by extension 'ignore_ament_install'
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_simulator) by extensions ['colcon_pkg']
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_simulator) by extension 'colcon_pkg'
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_simulator) by extensions ['colcon_meta']
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_simulator) by extension 'colcon_meta'
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_simulator) by extensions ['ros']
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_simulator-ros2/leo_simulator) by extension 'ros'
+[2.641s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_simulator-ros2/leo_simulator' with type 'ros.ament_cmake' and name 'leo_simulator'
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_package) by extensions ['ignore', 'ignore_ament_install']
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_package) by extension 'ignore'
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_package) by extension 'ignore_ament_install'
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_package) by extensions ['colcon_pkg']
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_package) by extension 'colcon_pkg'
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_package) by extensions ['colcon_meta']
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_package) by extension 'colcon_meta'
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_package) by extensions ['ros']
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_package) by extension 'ros'
+[2.643s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom_package' with type 'ros.ament_python' and name 'odom_package'
+[2.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.799s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_description' in 'src/leo_common-ros2/leo_description'
+[2.799s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_gz_plugins' in 'src/leo_simulator-ros2/leo_gz_plugins'
+[2.799s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_gz_worlds' in 'src/leo_simulator-ros2/leo_gz_worlds'
+[2.799s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_msgs' in 'src/leo_common-ros2/leo_msgs'
+[2.800s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_teleop' in 'src/leo_common-ros2/leo_teleop'
+[2.800s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo' in 'src/leo_common-ros2/leo'
+[2.800s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_gz_bringup' in 'src/leo_simulator-ros2/leo_gz_bringup'
+[2.800s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_simulator' in 'src/leo_simulator-ros2/leo_simulator'
+[2.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.971s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 443 installed packages in /opt/ros/humble
+[2.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'odom_package' build argument 'cmake_args' from command line to 'None'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'odom_package' build argument 'cmake_target' from command line to 'None'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'odom_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'odom_package' build argument 'cmake_clean_cache' from command line to 'False'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'odom_package' build argument 'cmake_clean_first' from command line to 'False'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'odom_package' build argument 'cmake_force_configure' from command line to 'False'
+[3.232s] Level 5:colcon.colcon_core.verb:set package 'odom_package' build argument 'ament_cmake_args' from command line to 'None'
+[3.232s] Level 5:colcon.colcon_core.verb:set package 'odom_package' build argument 'catkin_cmake_args' from command line to 'None'
+[3.232s] Level 5:colcon.colcon_core.verb:set package 'odom_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.232s] DEBUG:colcon.colcon_core.verb:Building package 'odom_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asm/leo_ws/build/odom_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asm/leo_ws/install/odom_package', 'merge_install': False, 'path': '/home/asm/leo_ws/src/odom_package', 'symlink_install': True, 'test_result_base': None}
+[3.266s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.301s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/asm/leo_ws/src/odom_package' with build type 'ament_python'
+[3.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_package', 'ament_prefix_path')
+[3.347s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asm/leo_ws/install/odom_package/share/odom_package/hook/ament_prefix_path.ps1'
+[3.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asm/leo_ws/install/odom_package/share/odom_package/hook/ament_prefix_path.dsv'
+[3.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asm/leo_ws/install/odom_package/share/odom_package/hook/ament_prefix_path.sh'
+[3.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.038s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/asm/leo_ws/src/odom_package'
+[4.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asm/leo_ws/build/odom_package': PYTHONPATH=/home/asm/leo_ws/build/odom_package/prefix_override:/home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/asm/leo_ws/build/odom_package/build --no-deps install_data
+[6.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_package', 'pythonpath_develop')
+[6.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asm/leo_ws/build/odom_package' returned '0': PYTHONPATH=/home/asm/leo_ws/build/odom_package/prefix_override:/home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/asm/leo_ws/build/odom_package/build --no-deps install_data
+[6.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asm/leo_ws/build/odom_package/share/odom_package/hook/pythonpath_develop.ps1'
+[6.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asm/leo_ws/build/odom_package/share/odom_package/hook/pythonpath_develop.dsv'
+[6.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asm/leo_ws/build/odom_package/share/odom_package/hook/pythonpath_develop.sh'
+[6.133s] Level 1:colcon.colcon_core.environment:checking '/home/asm/leo_ws/install/odom_package' for CMake module files
+[6.134s] Level 1:colcon.colcon_core.environment:checking '/home/asm/leo_ws/install/odom_package' for CMake config files
+[6.136s] Level 1:colcon.colcon_core.environment:checking '/home/asm/leo_ws/install/odom_package/lib'
+[6.136s] Level 1:colcon.colcon_core.environment:checking '/home/asm/leo_ws/install/odom_package/bin'
+[6.137s] Level 1:colcon.colcon_core.environment:checking '/home/asm/leo_ws/install/odom_package/lib/pkgconfig/odom_package.pc'
+[6.137s] Level 1:colcon.colcon_core.environment:checking '/home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages'
+[6.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_package', 'pythonpath')
+[6.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asm/leo_ws/install/odom_package/share/odom_package/hook/pythonpath.ps1'
+[6.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asm/leo_ws/install/odom_package/share/odom_package/hook/pythonpath.dsv'
+[6.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asm/leo_ws/install/odom_package/share/odom_package/hook/pythonpath.sh'
+[6.179s] Level 1:colcon.colcon_core.environment:checking '/home/asm/leo_ws/install/odom_package/bin'
+[6.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_package)
+[6.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/asm/leo_ws/install/odom_package/share/odom_package/package.ps1'
+[6.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asm/leo_ws/install/odom_package/share/odom_package/package.dsv'
+[6.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/asm/leo_ws/install/odom_package/share/odom_package/package.sh'
+[6.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/asm/leo_ws/install/odom_package/share/odom_package/package.bash'
+[6.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/asm/leo_ws/install/odom_package/share/odom_package/package.zsh'
+[6.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asm/leo_ws/install/odom_package/share/colcon-core/packages/odom_package)
+[6.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.222s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.222s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.222s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.276s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.306s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asm/leo_ws/install/local_setup.ps1'
+[6.349s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asm/leo_ws/install/_local_setup_util_ps1.py'
+[6.353s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asm/leo_ws/install/setup.ps1'
+[6.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asm/leo_ws/install/local_setup.sh'
+[6.400s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asm/leo_ws/install/_local_setup_util_sh.py'
+[6.401s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asm/leo_ws/install/setup.sh'
+[6.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asm/leo_ws/install/local_setup.bash'
+[6.452s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asm/leo_ws/install/setup.bash'
+[6.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asm/leo_ws/install/local_setup.zsh'
+[6.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asm/leo_ws/install/setup.zsh'

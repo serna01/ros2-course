@@ -1,0 +1,23 @@
+[0.023s] Invoking command in '/home/asm/leo_ws/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asm/leo_ws/install/rtabmap_livox:/home/asm/leo_ws/install/paqueteros2:/home/asm/leo_ws/install/odom_package:/home/asm/leo_ws/install/leo_teleop:/home/asm/leo_ws/install/leo_navigation:/home/asm/leo_ws/install/leo_gz_worlds:/home/asm/leo_ws/install/leo_description:/opt/ros/humble /usr/bin/cmake --build /home/asm/leo_ws/build/leo_teleop -- -j12 -l12
+[0.319s] Invoked command in '/home/asm/leo_ws/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asm/leo_ws/install/rtabmap_livox:/home/asm/leo_ws/install/paqueteros2:/home/asm/leo_ws/install/odom_package:/home/asm/leo_ws/install/leo_teleop:/home/asm/leo_ws/install/leo_navigation:/home/asm/leo_ws/install/leo_gz_worlds:/home/asm/leo_ws/install/leo_description:/opt/ros/humble /usr/bin/cmake --build /home/asm/leo_ws/build/leo_teleop -- -j12 -l12
+[0.347s] Invoking command in '/home/asm/leo_ws/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asm/leo_ws/install/rtabmap_livox:/home/asm/leo_ws/install/paqueteros2:/home/asm/leo_ws/install/odom_package:/home/asm/leo_ws/install/leo_teleop:/home/asm/leo_ws/install/leo_navigation:/home/asm/leo_ws/install/leo_gz_worlds:/home/asm/leo_ws/install/leo_description:/opt/ros/humble /usr/bin/cmake --install /home/asm/leo_ws/build/leo_teleop
+[0.369s] -- Install configuration: ""
+[0.369s] -- Execute custom install script
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/config/joy_config.yaml
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/launch/joy_teleop.launch.xml
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/launch/key_teleop.launch.xml
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/ament_index/resource_index/package_run_dependencies/leo_teleop
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/ament_index/resource_index/parent_prefix_path/leo_teleop
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.sh
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.dsv
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/environment/path.sh
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/environment/path.dsv
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/local_setup.bash
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/local_setup.sh
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/local_setup.zsh
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/local_setup.dsv
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/package.dsv
+[0.369s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/ament_index/resource_index/packages/leo_teleop
+[0.370s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig.cmake
+[0.370s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig-version.cmake
+[0.370s] -- Up-to-date symlink: /home/asm/leo_ws/install/leo_teleop/share/leo_teleop/package.xml

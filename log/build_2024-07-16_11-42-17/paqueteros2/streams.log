@@ -1,0 +1,25 @@
+[1.131s] Invoking command in '/home/asm/leo_ws/src/paqueteros2': PYTHONPATH=/home/asm/leo_ws/build/paqueteros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/paqueteros2 build --build-base /home/asm/leo_ws/build/paqueteros2/build install --record /home/asm/leo_ws/build/paqueteros2/install.log --single-version-externally-managed install_data
+[1.575s] running egg_info
+[1.576s] writing ../../build/paqueteros2/paqueteros2.egg-info/PKG-INFO
+[1.577s] writing dependency_links to ../../build/paqueteros2/paqueteros2.egg-info/dependency_links.txt
+[1.577s] writing entry points to ../../build/paqueteros2/paqueteros2.egg-info/entry_points.txt
+[1.577s] writing requirements to ../../build/paqueteros2/paqueteros2.egg-info/requires.txt
+[1.577s] writing top-level names to ../../build/paqueteros2/paqueteros2.egg-info/top_level.txt
+[1.581s] reading manifest file '../../build/paqueteros2/paqueteros2.egg-info/SOURCES.txt'
+[1.581s] adding license file 'LICENSE'
+[1.583s] writing manifest file '../../build/paqueteros2/paqueteros2.egg-info/SOURCES.txt'
+[1.583s] running build
+[1.583s] running build_py
+[1.583s] copying paqueteros2/odom_subs.py -> /home/asm/leo_ws/build/paqueteros2/build/lib/paqueteros2
+[1.584s] running install
+[1.584s] running install_lib
+[1.586s] copying /home/asm/leo_ws/build/paqueteros2/build/lib/paqueteros2/odom_subs.py -> /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2
+[1.587s] byte-compiling /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2/odom_subs.py to odom_subs.cpython-310.pyc
+[1.588s] running install_data
+[1.588s] running install_egg_info
+[1.593s] removing '/home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.593s] Copying ../../build/paqueteros2/paqueteros2.egg-info to /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2-0.0.0-py3.10.egg-info
+[1.595s] running install_scripts
+[1.632s] Installing odom script to /home/asm/leo_ws/install/paqueteros2/lib/paqueteros2
+[1.632s] writing list of installed files to '/home/asm/leo_ws/build/paqueteros2/install.log'
+[1.688s] Invoked command in '/home/asm/leo_ws/src/paqueteros2' returned '0': PYTHONPATH=/home/asm/leo_ws/build/paqueteros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/paqueteros2 build --build-base /home/asm/leo_ws/build/paqueteros2/build install --record /home/asm/leo_ws/build/paqueteros2/install.log --single-version-externally-managed install_data

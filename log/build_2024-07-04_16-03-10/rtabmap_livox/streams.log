@@ -1,0 +1,26 @@
+[1.183s] Invoking command in '/home/asm/leo_ws/src/rtabmap_livox/rtabmap_livox': PYTHONPATH=/home/asm/leo_ws/build/rtabmap_livox/prefix_override:/home/asm/leo_ws/install/rtabmap_livox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rtabmap_livox build --build-base /home/asm/leo_ws/build/rtabmap_livox/build install --record /home/asm/leo_ws/build/rtabmap_livox/install.log --single-version-externally-managed install_data
+[1.436s] running egg_info
+[1.437s] creating ../../../build/rtabmap_livox/rtabmap_livox.egg-info
+[1.438s] writing ../../../build/rtabmap_livox/rtabmap_livox.egg-info/PKG-INFO
+[1.438s] writing dependency_links to ../../../build/rtabmap_livox/rtabmap_livox.egg-info/dependency_links.txt
+[1.439s] writing entry points to ../../../build/rtabmap_livox/rtabmap_livox.egg-info/entry_points.txt
+[1.439s] writing requirements to ../../../build/rtabmap_livox/rtabmap_livox.egg-info/requires.txt
+[1.439s] writing top-level names to ../../../build/rtabmap_livox/rtabmap_livox.egg-info/top_level.txt
+[1.439s] writing manifest file '../../../build/rtabmap_livox/rtabmap_livox.egg-info/SOURCES.txt'
+[1.439s] reading manifest file '../../../build/rtabmap_livox/rtabmap_livox.egg-info/SOURCES.txt'
+[1.440s] writing manifest file '../../../build/rtabmap_livox/rtabmap_livox.egg-info/SOURCES.txt'
+[1.440s] running build
+[1.440s] running install
+[1.440s] running install_data
+[1.440s] creating /home/asm/leo_ws/install/rtabmap_livox/share/ament_index
+[1.441s] creating /home/asm/leo_ws/install/rtabmap_livox/share/ament_index/resource_index
+[1.441s] creating /home/asm/leo_ws/install/rtabmap_livox/share/ament_index/resource_index/packages
+[1.441s] copying resource/rtabmap_livox -> /home/asm/leo_ws/install/rtabmap_livox/share/ament_index/resource_index/packages
+[1.441s] copying package.xml -> /home/asm/leo_ws/install/rtabmap_livox/share/rtabmap_livox
+[1.441s] creating /home/asm/leo_ws/install/rtabmap_livox/share/rtabmap_livox/launch
+[1.441s] copying launch/rtabmap_livox.launch.py -> /home/asm/leo_ws/install/rtabmap_livox/share/rtabmap_livox/launch
+[1.441s] running install_egg_info
+[1.443s] Copying ../../../build/rtabmap_livox/rtabmap_livox.egg-info to /home/asm/leo_ws/install/rtabmap_livox/lib/python3.10/site-packages/rtabmap_livox-0.0.0-py3.10.egg-info
+[1.444s] running install_scripts
+[1.462s] writing list of installed files to '/home/asm/leo_ws/build/rtabmap_livox/install.log'
+[1.483s] Invoked command in '/home/asm/leo_ws/src/rtabmap_livox/rtabmap_livox' returned '0': PYTHONPATH=/home/asm/leo_ws/build/rtabmap_livox/prefix_override:/home/asm/leo_ws/install/rtabmap_livox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rtabmap_livox build --build-base /home/asm/leo_ws/build/rtabmap_livox/build install --record /home/asm/leo_ws/build/rtabmap_livox/install.log --single-version-externally-managed install_data

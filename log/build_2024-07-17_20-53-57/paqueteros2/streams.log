@@ -1,0 +1,27 @@
+[1.260s] Invoking command in '/home/asm/leo_ws/src/paqueteros2': PYTHONPATH=/home/asm/leo_ws/build/paqueteros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/paqueteros2 build --build-base /home/asm/leo_ws/build/paqueteros2/build install --record /home/asm/leo_ws/build/paqueteros2/install.log --single-version-externally-managed install_data
+[1.737s] running egg_info
+[1.738s] writing ../../build/paqueteros2/paqueteros2.egg-info/PKG-INFO
+[1.738s] writing dependency_links to ../../build/paqueteros2/paqueteros2.egg-info/dependency_links.txt
+[1.739s] writing entry points to ../../build/paqueteros2/paqueteros2.egg-info/entry_points.txt
+[1.739s] writing requirements to ../../build/paqueteros2/paqueteros2.egg-info/requires.txt
+[1.739s] writing top-level names to ../../build/paqueteros2/paqueteros2.egg-info/top_level.txt
+[1.743s] reading manifest file '../../build/paqueteros2/paqueteros2.egg-info/SOURCES.txt'
+[1.743s] adding license file 'LICENSE'
+[1.744s] writing manifest file '../../build/paqueteros2/paqueteros2.egg-info/SOURCES.txt'
+[1.744s] running build
+[1.744s] running build_py
+[1.744s] copying paqueteros2/follower.py -> /home/asm/leo_ws/build/paqueteros2/build/lib/paqueteros2
+[1.745s] running install
+[1.745s] running install_lib
+[1.747s] copying /home/asm/leo_ws/build/paqueteros2/build/lib/paqueteros2/follower.py -> /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2
+[1.749s] byte-compiling /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2/follower.py to follower.cpython-310.pyc
+[1.751s] running install_data
+[1.751s] running install_egg_info
+[1.755s] removing '/home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.755s] Copying ../../build/paqueteros2/paqueteros2.egg-info to /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2-0.0.0-py3.10.egg-info
+[1.756s] running install_scripts
+[1.791s] Installing leo_follower script to /home/asm/leo_ws/install/paqueteros2/lib/paqueteros2
+[1.792s] Installing odom script to /home/asm/leo_ws/install/paqueteros2/lib/paqueteros2
+[1.792s] Installing square script to /home/asm/leo_ws/install/paqueteros2/lib/paqueteros2
+[1.792s] writing list of installed files to '/home/asm/leo_ws/build/paqueteros2/install.log'
+[1.851s] Invoked command in '/home/asm/leo_ws/src/paqueteros2' returned '0': PYTHONPATH=/home/asm/leo_ws/build/paqueteros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/paqueteros2 build --build-base /home/asm/leo_ws/build/paqueteros2/build install --record /home/asm/leo_ws/build/paqueteros2/install.log --single-version-externally-managed install_data

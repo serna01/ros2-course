@@ -1,0 +1,18 @@
+[1.036s] Invoking command in '/home/asm/leo_ws/src/rtabmap_livox/rtabmap_livox': PYTHONPATH=/home/asm/leo_ws/build/rtabmap_livox/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asm/leo_ws/install/rtabmap_livox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rtabmap_livox build --build-base /home/asm/leo_ws/build/rtabmap_livox/build install --record /home/asm/leo_ws/build/rtabmap_livox/install.log --single-version-externally-managed install_data
+[1.298s] running egg_info
+[1.299s] writing ../../../build/rtabmap_livox/rtabmap_livox.egg-info/PKG-INFO
+[1.299s] writing dependency_links to ../../../build/rtabmap_livox/rtabmap_livox.egg-info/dependency_links.txt
+[1.300s] writing entry points to ../../../build/rtabmap_livox/rtabmap_livox.egg-info/entry_points.txt
+[1.300s] writing requirements to ../../../build/rtabmap_livox/rtabmap_livox.egg-info/requires.txt
+[1.300s] writing top-level names to ../../../build/rtabmap_livox/rtabmap_livox.egg-info/top_level.txt
+[1.301s] reading manifest file '../../../build/rtabmap_livox/rtabmap_livox.egg-info/SOURCES.txt'
+[1.302s] writing manifest file '../../../build/rtabmap_livox/rtabmap_livox.egg-info/SOURCES.txt'
+[1.302s] running build
+[1.302s] running install
+[1.302s] running install_data
+[1.302s] running install_egg_info
+[1.305s] removing '/home/asm/leo_ws/install/rtabmap_livox/lib/python3.10/site-packages/rtabmap_livox-0.0.0-py3.10.egg-info' (and everything under it)
+[1.305s] Copying ../../../build/rtabmap_livox/rtabmap_livox.egg-info to /home/asm/leo_ws/install/rtabmap_livox/lib/python3.10/site-packages/rtabmap_livox-0.0.0-py3.10.egg-info
+[1.306s] running install_scripts
+[1.325s] writing list of installed files to '/home/asm/leo_ws/build/rtabmap_livox/install.log'
+[1.352s] Invoked command in '/home/asm/leo_ws/src/rtabmap_livox/rtabmap_livox' returned '0': PYTHONPATH=/home/asm/leo_ws/build/rtabmap_livox/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asm/leo_ws/install/rtabmap_livox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rtabmap_livox build --build-base /home/asm/leo_ws/build/rtabmap_livox/build install --record /home/asm/leo_ws/build/rtabmap_livox/install.log --single-version-externally-managed install_data

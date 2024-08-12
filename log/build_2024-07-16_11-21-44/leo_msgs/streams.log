@@ -1,0 +1,23 @@
+[0.020s] Invoking command in '/home/asm/leo_ws/build/leo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asm/leo_ws/install/rtabmap_livox:/home/asm/leo_ws/install/odom_package:/home/asm/leo_ws/install/leo_navigation:/opt/ros/humble /usr/bin/cmake --build /home/asm/leo_ws/build/leo_msgs -- -j12 -l12
+[0.061s] [  4%] Built target leo_msgs__cpp
+[0.061s] [ 12%] Built target leo_msgs__rosidl_generator_c
+[0.071s] [ 12%] Built target ament_cmake_python_symlink_leo_msgs
+[0.083s] [ 23%] Built target leo_msgs__rosidl_typesupport_cpp
+[0.084s] [ 44%] Built target leo_msgs__rosidl_typesupport_introspection_cpp
+[0.084s] [ 46%] Built target leo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.111s] [ 66%] Built target leo_msgs__rosidl_typesupport_introspection_c
+[0.111s] [ 68%] Built target leo_msgs__rosidl_typesupport_fastrtps_c
+[0.111s] [ 79%] Built target leo_msgs__rosidl_typesupport_c
+[0.112s] [ 79%] Built target leo_msgs
+[0.129s] [ 80%] Built target leo_msgs__py
+[0.147s] [ 90%] Built target leo_msgs__rosidl_generator_py
+[0.165s] [100%] Built target leo_msgs__rosidl_typesupport_c__pyext
+[0.166s] [100%] Built target leo_msgs__rosidl_typesupport_introspection_c__pyext
+[0.166s] [100%] Built target leo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.345s] running egg_info
+[0.346s] writing leo_msgs.egg-info/PKG-INFO
+[0.346s] writing dependency_links to leo_msgs.egg-info/dependency_links.txt
+[0.346s] writing top-level names to leo_msgs.egg-info/top_level.txt
+[0.349s] reading manifest file 'leo_msgs.egg-info/SOURCES.txt'
+[0.349s] writing manifest file 'leo_msgs.egg-info/SOURCES.txt'
+[0.370s] [100%] Built target ament_cmake_python_build_leo_msgs_egg

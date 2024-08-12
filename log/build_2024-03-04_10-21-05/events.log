@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000424] (-) JobUnselected: {'identifier': 'leo'}
+[0.000896] (-) JobUnselected: {'identifier': 'leo_description'}
+[0.001442] (-) JobUnselected: {'identifier': 'leo_gz_bringup'}
+[0.001754] (-) JobUnselected: {'identifier': 'leo_gz_plugins'}
+[0.002133] (-) JobUnselected: {'identifier': 'leo_gz_worlds'}
+[0.002293] (-) JobUnselected: {'identifier': 'leo_msgs'}
+[0.002339] (-) JobUnselected: {'identifier': 'leo_simulator'}
+[0.002371] (-) JobUnselected: {'identifier': 'leo_teleop'}
+[0.002457] (odom_package) JobQueued: {'identifier': 'odom_package', 'dependencies': OrderedDict()}
+[0.002899] (odom_package) JobStarted: {'identifier': 'odom_package'}
+[0.099630] (-) TimerEvent: {}
+[0.200140] (-) TimerEvent: {}
+[0.300441] (-) TimerEvent: {}
+[0.400849] (-) TimerEvent: {}
+[0.501431] (-) TimerEvent: {}
+[0.602073] (-) TimerEvent: {}
+[0.702418] (-) TimerEvent: {}
+[0.802892] (-) TimerEvent: {}
+[0.903466] (-) TimerEvent: {}
+[1.003804] (-) TimerEvent: {}
+[1.104236] (-) TimerEvent: {}
+[1.204659] (-) TimerEvent: {}
+[1.305143] (-) TimerEvent: {}
+[1.405599] (-) TimerEvent: {}
+[1.506132] (-) TimerEvent: {}
+[1.606489] (-) TimerEvent: {}
+[1.680291] (odom_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/asm/leo_ws/build/odom_package/build', '--no-deps', 'install_data'], 'cwd': '/home/asm/leo_ws/build/odom_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'asm', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.0/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/asm', 'OLDPWD': '/home/asm/leo_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'SYSTEMD_EXEC_PID': '5620', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'asm', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asm', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/snap/bin:/usr/local/cuda-12.0/bin:/opt/ros/humble/bin:/home/asm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/asm:@/tmp/.ICE-unix/1461,unix/asm:/tmp/.ICE-unix/1461', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/484bc0f3_6670_45f0_bfee_978f5da097e3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/asm/leo_ws/build/odom_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/asm/leo_ws/build/odom_package/prefix_override:/home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.706569] (-) TimerEvent: {}
+[1.806863] (-) TimerEvent: {}
+[1.907220] (-) TimerEvent: {}
+[2.007544] (-) TimerEvent: {}
+[2.107958] (-) TimerEvent: {}
+[2.208354] (-) TimerEvent: {}
+[2.248861] (odom_package) StdoutLine: {'line': b'running develop\n'}
+[2.251237] (odom_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.251627] (odom_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.254766] (odom_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.255256] (odom_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.308503] (-) TimerEvent: {}
+[2.409005] (-) TimerEvent: {}
+[2.509595] (-) TimerEvent: {}
+[2.610027] (-) TimerEvent: {}
+[2.671050] (odom_package) StdoutLine: {'line': b'running egg_info\n'}
+[2.671560] (odom_package) StdoutLine: {'line': b'creating odom_package.egg-info\n'}
+[2.671874] (odom_package) StdoutLine: {'line': b'writing odom_package.egg-info/PKG-INFO\n'}
+[2.672572] (odom_package) StdoutLine: {'line': b'writing dependency_links to odom_package.egg-info/dependency_links.txt\n'}
+[2.672850] (odom_package) StdoutLine: {'line': b'writing entry points to odom_package.egg-info/entry_points.txt\n'}
+[2.673157] (odom_package) StdoutLine: {'line': b'writing requirements to odom_package.egg-info/requires.txt\n'}
+[2.673361] (odom_package) StdoutLine: {'line': b'writing top-level names to odom_package.egg-info/top_level.txt\n'}
+[2.673632] (odom_package) StdoutLine: {'line': b"writing manifest file 'odom_package.egg-info/SOURCES.txt'\n"}
+[2.676140] (odom_package) StdoutLine: {'line': b"reading manifest file 'odom_package.egg-info/SOURCES.txt'\n"}
+[2.677133] (odom_package) StdoutLine: {'line': b"writing manifest file 'odom_package.egg-info/SOURCES.txt'\n"}
+[2.679691] (odom_package) StdoutLine: {'line': b'running build_ext\n'}
+[2.680090] (odom_package) StdoutLine: {'line': b'Creating /home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages/odom-package.egg-link (link to .)\n'}
+[2.681396] (odom_package) StdoutLine: {'line': b'Installing odom_node script to /home/asm/leo_ws/install/odom_package/lib/odom_package\n'}
+[2.681873] (odom_package) StdoutLine: {'line': b'\n'}
+[2.682046] (odom_package) StdoutLine: {'line': b'Installed /home/asm/leo_ws/build/odom_package\n'}
+[2.682244] (odom_package) StdoutLine: {'line': b'running install_data\n'}
+[2.682406] (odom_package) StdoutLine: {'line': b'creating /home/asm/leo_ws/install/odom_package/share/ament_index\n'}
+[2.682535] (odom_package) StdoutLine: {'line': b'creating /home/asm/leo_ws/install/odom_package/share/ament_index/resource_index\n'}
+[2.682637] (odom_package) StdoutLine: {'line': b'creating /home/asm/leo_ws/install/odom_package/share/ament_index/resource_index/packages\n'}
+[2.682742] (odom_package) StdoutLine: {'line': b'copying resource/odom_package -> /home/asm/leo_ws/install/odom_package/share/ament_index/resource_index/packages\n'}
+[2.682850] (odom_package) StdoutLine: {'line': b'copying package.xml -> /home/asm/leo_ws/install/odom_package/share/odom_package\n'}
+[2.710146] (-) TimerEvent: {}
+[2.751429] (odom_package) CommandEnded: {'returncode': 0}
+[2.810349] (-) TimerEvent: {}
+[2.912456] (-) TimerEvent: {}
+[2.921085] (odom_package) JobEnded: {'identifier': 'odom_package', 'rc': 0}
+[2.922412] (-) EventReactorShutdown: {}

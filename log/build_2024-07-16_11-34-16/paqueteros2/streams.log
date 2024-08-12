@@ -1,0 +1,38 @@
+[1.070s] Invoking command in '/home/asm/leo_ws/src/paqueteros2': PYTHONPATH=/home/asm/leo_ws/build/paqueteros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/paqueteros2 build --build-base /home/asm/leo_ws/build/paqueteros2/build install --record /home/asm/leo_ws/build/paqueteros2/install.log --single-version-externally-managed install_data
+[1.486s] running egg_info
+[1.487s] creating ../../build/paqueteros2/paqueteros2.egg-info
+[1.487s] writing ../../build/paqueteros2/paqueteros2.egg-info/PKG-INFO
+[1.487s] writing dependency_links to ../../build/paqueteros2/paqueteros2.egg-info/dependency_links.txt
+[1.488s] writing entry points to ../../build/paqueteros2/paqueteros2.egg-info/entry_points.txt
+[1.488s] writing requirements to ../../build/paqueteros2/paqueteros2.egg-info/requires.txt
+[1.488s] writing top-level names to ../../build/paqueteros2/paqueteros2.egg-info/top_level.txt
+[1.488s] writing manifest file '../../build/paqueteros2/paqueteros2.egg-info/SOURCES.txt'
+[1.491s] reading manifest file '../../build/paqueteros2/paqueteros2.egg-info/SOURCES.txt'
+[1.491s] adding license file 'LICENSE'
+[1.492s] writing manifest file '../../build/paqueteros2/paqueteros2.egg-info/SOURCES.txt'
+[1.492s] running build
+[1.492s] running build_py
+[1.492s] creating /home/asm/leo_ws/build/paqueteros2/build
+[1.492s] creating /home/asm/leo_ws/build/paqueteros2/build/lib
+[1.492s] creating /home/asm/leo_ws/build/paqueteros2/build/lib/paqueteros2
+[1.492s] copying paqueteros2/__init__.py -> /home/asm/leo_ws/build/paqueteros2/build/lib/paqueteros2
+[1.492s] copying paqueteros2/odom_subs.py -> /home/asm/leo_ws/build/paqueteros2/build/lib/paqueteros2
+[1.493s] running install
+[1.493s] running install_lib
+[1.494s] creating /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2
+[1.494s] copying /home/asm/leo_ws/build/paqueteros2/build/lib/paqueteros2/__init__.py -> /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2
+[1.495s] copying /home/asm/leo_ws/build/paqueteros2/build/lib/paqueteros2/odom_subs.py -> /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2
+[1.495s] byte-compiling /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2/__init__.py to __init__.cpython-310.pyc
+[1.495s] byte-compiling /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2/odom_subs.py to odom_subs.cpython-310.pyc
+[1.496s] running install_data
+[1.496s] creating /home/asm/leo_ws/install/paqueteros2/share/ament_index
+[1.496s] creating /home/asm/leo_ws/install/paqueteros2/share/ament_index/resource_index
+[1.496s] creating /home/asm/leo_ws/install/paqueteros2/share/ament_index/resource_index/packages
+[1.496s] copying resource/paqueteros2 -> /home/asm/leo_ws/install/paqueteros2/share/ament_index/resource_index/packages
+[1.496s] copying package.xml -> /home/asm/leo_ws/install/paqueteros2/share/paqueteros2
+[1.496s] running install_egg_info
+[1.499s] Copying ../../build/paqueteros2/paqueteros2.egg-info to /home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages/paqueteros2-0.0.0-py3.10.egg-info
+[1.500s] running install_scripts
+[1.537s] Installing odom script to /home/asm/leo_ws/install/paqueteros2/lib/paqueteros2
+[1.537s] writing list of installed files to '/home/asm/leo_ws/build/paqueteros2/install.log'
+[1.591s] Invoked command in '/home/asm/leo_ws/src/paqueteros2' returned '0': PYTHONPATH=/home/asm/leo_ws/build/paqueteros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asm/leo_ws/install/paqueteros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/paqueteros2 build --build-base /home/asm/leo_ws/build/paqueteros2/build install --record /home/asm/leo_ws/build/paqueteros2/install.log --single-version-externally-managed install_data

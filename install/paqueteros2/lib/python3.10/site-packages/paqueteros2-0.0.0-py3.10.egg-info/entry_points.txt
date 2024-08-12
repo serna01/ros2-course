@@ -1,0 +1,5 @@
+[console_scripts]
+leo_follower = paqueteros2.follower:main
+odom = paqueteros2.odom_subs:main
+square = paqueteros2.odom_pub:main
+

@@ -1,0 +1,4 @@
+gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libsdformat12.so.12.7.2', needed by 'libleo_gz_differential_plugin.so'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/leo_gz_differential_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

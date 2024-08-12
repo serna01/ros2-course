@@ -1,0 +1,12 @@
+[0.028s] Invoking command in '/home/asm/leo_ws/build/leo_gz_worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asm/leo_ws/build/leo_gz_worlds -- -j12 -l12
+[0.583s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.583s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.583s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.583s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.584s] -- Added test 'lint_cmake' to check CMake code style
+[0.584s] -- Added test 'xmllint' to check XML markup files
+[0.584s] -- Configuring done
+[0.584s] -- Generating done
+[0.584s] -- Build files have been written to: /home/asm/leo_ws/build/leo_gz_worlds
+[0.590s] Invoked command in '/home/asm/leo_ws/build/leo_gz_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asm/leo_ws/build/leo_gz_worlds -- -j12 -l12
+[0.636s] Invoking command in '/home/asm/leo_ws/build/leo_gz_worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asm/leo_ws/build/leo_gz_worlds

@@ -1,0 +1,28 @@
+[1.681s] Invoking command in '/home/asm/leo_ws/build/odom_package': PYTHONPATH=/home/asm/leo_ws/build/odom_package/prefix_override:/home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/asm/leo_ws/build/odom_package/build --no-deps install_data
+[2.246s] running develop
+[2.249s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.249s]   warnings.warn(
+[2.252s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.252s]   warnings.warn(
+[2.668s] running egg_info
+[2.669s] creating odom_package.egg-info
+[2.669s] writing odom_package.egg-info/PKG-INFO
+[2.670s] writing dependency_links to odom_package.egg-info/dependency_links.txt
+[2.670s] writing entry points to odom_package.egg-info/entry_points.txt
+[2.670s] writing requirements to odom_package.egg-info/requires.txt
+[2.671s] writing top-level names to odom_package.egg-info/top_level.txt
+[2.671s] writing manifest file 'odom_package.egg-info/SOURCES.txt'
+[2.673s] reading manifest file 'odom_package.egg-info/SOURCES.txt'
+[2.674s] writing manifest file 'odom_package.egg-info/SOURCES.txt'
+[2.677s] running build_ext
+[2.677s] Creating /home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages/odom-package.egg-link (link to .)
+[2.679s] Installing odom_node script to /home/asm/leo_ws/install/odom_package/lib/odom_package
+[2.679s] 
+[2.679s] Installed /home/asm/leo_ws/build/odom_package
+[2.679s] running install_data
+[2.680s] creating /home/asm/leo_ws/install/odom_package/share/ament_index
+[2.680s] creating /home/asm/leo_ws/install/odom_package/share/ament_index/resource_index
+[2.680s] creating /home/asm/leo_ws/install/odom_package/share/ament_index/resource_index/packages
+[2.680s] copying resource/odom_package -> /home/asm/leo_ws/install/odom_package/share/ament_index/resource_index/packages
+[2.680s] copying package.xml -> /home/asm/leo_ws/install/odom_package/share/odom_package
+[2.749s] Invoked command in '/home/asm/leo_ws/build/odom_package' returned '0': PYTHONPATH=/home/asm/leo_ws/build/odom_package/prefix_override:/home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/asm/leo_ws/build/odom_package/build --no-deps install_data

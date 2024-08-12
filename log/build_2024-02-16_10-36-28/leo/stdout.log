@@ -1,0 +1,23 @@
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/asm/leo_ws/build/leo
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/asm/leo_ws/install/leo/share/ament_index/resource_index/package_run_dependencies/leo
+-- Symlinking: /home/asm/leo_ws/install/leo/share/ament_index/resource_index/parent_prefix_path/leo
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/environment/ament_prefix_path.sh
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/environment/path.sh
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/environment/path.dsv
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/local_setup.bash
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/local_setup.sh
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/local_setup.zsh
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/local_setup.dsv
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/package.dsv
+-- Symlinking: /home/asm/leo_ws/install/leo/share/ament_index/resource_index/packages/leo
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/cmake/leoConfig.cmake
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/cmake/leoConfig-version.cmake
+-- Symlinking: /home/asm/leo_ws/install/leo/share/leo/package.xml

@@ -1,0 +1,23 @@
+[1.038s] Invoking command in '/home/asm/leo_ws/src/leo_navigation': PYTHONPATH=/home/asm/leo_ws/build/leo_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asm/leo_ws/install/leo_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/leo_navigation build --build-base /home/asm/leo_ws/build/leo_navigation/build install --record /home/asm/leo_ws/build/leo_navigation/install.log --single-version-externally-managed install_data
+[1.298s] running egg_info
+[1.299s] writing ../../build/leo_navigation/leo_navigation.egg-info/PKG-INFO
+[1.299s] writing dependency_links to ../../build/leo_navigation/leo_navigation.egg-info/dependency_links.txt
+[1.299s] writing entry points to ../../build/leo_navigation/leo_navigation.egg-info/entry_points.txt
+[1.299s] writing requirements to ../../build/leo_navigation/leo_navigation.egg-info/requires.txt
+[1.299s] writing top-level names to ../../build/leo_navigation/leo_navigation.egg-info/top_level.txt
+[1.301s] reading manifest file '../../build/leo_navigation/leo_navigation.egg-info/SOURCES.txt'
+[1.302s] writing manifest file '../../build/leo_navigation/leo_navigation.egg-info/SOURCES.txt'
+[1.302s] running build
+[1.302s] running build_py
+[1.302s] running install
+[1.302s] running install_lib
+[1.304s] running install_data
+[1.304s] copying package.xml -> /home/asm/leo_ws/install/leo_navigation/share/leo_navigation
+[1.304s] running install_egg_info
+[1.305s] removing '/home/asm/leo_ws/install/leo_navigation/lib/python3.10/site-packages/leo_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[1.306s] Copying ../../build/leo_navigation/leo_navigation.egg-info to /home/asm/leo_ws/install/leo_navigation/lib/python3.10/site-packages/leo_navigation-0.0.0-py3.10.egg-info
+[1.306s] running install_scripts
+[1.326s] Installing object_detection_node script to /home/asm/leo_ws/install/leo_navigation/lib/leo_navigation
+[1.326s] Installing static_tf_publisher script to /home/asm/leo_ws/install/leo_navigation/lib/leo_navigation
+[1.327s] writing list of installed files to '/home/asm/leo_ws/build/leo_navigation/install.log'
+[1.351s] Invoked command in '/home/asm/leo_ws/src/leo_navigation' returned '0': PYTHONPATH=/home/asm/leo_ws/build/leo_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asm/leo_ws/install/leo_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/leo_navigation build --build-base /home/asm/leo_ws/build/leo_navigation/build install --record /home/asm/leo_ws/build/leo_navigation/install.log --single-version-externally-managed install_data

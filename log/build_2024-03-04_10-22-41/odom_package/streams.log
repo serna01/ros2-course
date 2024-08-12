@@ -1,0 +1,21 @@
+[2.279s] Invoking command in '/home/asm/leo_ws/build/odom_package': PYTHONPATH=/home/asm/leo_ws/build/odom_package/prefix_override:/home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/asm/leo_ws/build/odom_package/build --no-deps install_data
+[2.905s] running develop
+[2.905s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.906s]   warnings.warn(
+[2.909s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.909s]   warnings.warn(
+[3.561s] running egg_info
+[3.562s] writing odom_package.egg-info/PKG-INFO
+[3.563s] writing dependency_links to odom_package.egg-info/dependency_links.txt
+[3.565s] writing entry points to odom_package.egg-info/entry_points.txt
+[3.565s] writing requirements to odom_package.egg-info/requires.txt
+[3.566s] writing top-level names to odom_package.egg-info/top_level.txt
+[3.568s] reading manifest file 'odom_package.egg-info/SOURCES.txt'
+[3.571s] writing manifest file 'odom_package.egg-info/SOURCES.txt'
+[3.574s] running build_ext
+[3.577s] Creating /home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages/odom-package.egg-link (link to .)
+[3.579s] Installing odom_node script to /home/asm/leo_ws/install/odom_package/lib/odom_package
+[3.583s] 
+[3.584s] Installed /home/asm/leo_ws/build/odom_package
+[3.584s] running install_data
+[3.685s] Invoked command in '/home/asm/leo_ws/build/odom_package' returned '0': PYTHONPATH=/home/asm/leo_ws/build/odom_package/prefix_override:/home/asm/leo_ws/install/odom_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/asm/leo_ws/build/odom_package/build --no-deps install_data
